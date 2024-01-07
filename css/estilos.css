@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Lato;
+    src: url(/Lato/lato-regular-webfont.woff2);
+    font-weight: 400;
+}
+@font-face{
+    font-family: Lato;
+    src: url(/Lato/lato-bold-webfont.woff2);
+    font-weight: 700;
+}
+@font-face{
+    font-family: Lato;
+    src: url(/Lato/lato-black-webfont.woff2);
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Noto Serif";
+    src: url(/Noto_Serif/NotoSerifCondensed-SemiBold.woff2);
+    font-weight: 600;
+}
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+a:link, a:visited { 
+    text-decoration: none;
+  }
+  a:hover{
+    color: #a4f479;
+  }
+  body{
+    background-color: rgb(247, 247, 247);
+  }
+  header nav{
+    display: flex;
+  }
+/* Estilos para el separador */
+.separator {
+    border-left: 5px solid #000; /* Grosor y color del separador */
+    height: 20px; /* Altura del separador (ajustar según necesidad) */
+    margin: 0 10px; /* Espacio alrededor del separador */
+  }
+  
+  /* Estilos para la lista */
+  header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  footer{
+    background-color: rgb(0, 59, 74);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40vh;
+    color: rgb(255, 255, 255);
+  }
+  footer a{
+    color: rgb(255, 255, 255);
+  }
+  footer a:hover{
+    color: rgb(229, 225, 254);
+  }
+  .footer__socialMediaLogo:hover{
+    opacity: 70%;
+  }
+  footer ul li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
