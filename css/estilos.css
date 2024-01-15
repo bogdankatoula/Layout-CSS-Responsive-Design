@@ -66,7 +66,7 @@ a:link, a:visited {
   .hero__image--home{
     background-image: url(/img/hero-image-home.jpg);
     background-size: 950px;
-    background-attachment: fixed;
+    background-attachment:scroll;
     background-repeat: no-repeat;
     background-position: top center;
     padding-top: 150px;
@@ -78,6 +78,14 @@ a:link, a:visited {
     margin-left: 2%;
     margin-right: 2%;
   }
+  .meInteresa {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
   footer{
     background-color: rgb(0, 59, 74);
     display: flex;
