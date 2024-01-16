@@ -18,7 +18,8 @@
     src: url(/Noto_Serif/NotoSerifCondensed-SemiBold.woff2);
     font-weight: 600;
 }
-*{
+@media (min-width: 390px){
+  *{
     list-style: none;
     padding: 0;
     margin: 0;
@@ -130,6 +131,12 @@ a:link, a:visited {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  .index__articleInverted{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
   .index__article--img{
     width: 100%;
   }
@@ -186,4 +193,31 @@ a:link, a:visited {
   footer ul li{
     margin-top: 13px;
     margin-bottom: 13px;
+  }
+}
+  @media (min-width: 820px) {
+    .indexFormulario{
+      margin-right: 35%;
+    }
+    .proteccionDatos{
+      margin-right: 35%;
+    }
+    .index__article{
+      display: flex;
+    }
+    .index__articleInverted{
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    .index__article--imgCredits{
+      transform: rotate(-5deg);
+      margin-right: 30px;
+    }
+    .index__article--imgCreditsInverted{
+      transform: rotate(5deg);
+      margin-left: 30px;
+    }
+    .index__article--img{
+      width: 200px;
+    }
   }
