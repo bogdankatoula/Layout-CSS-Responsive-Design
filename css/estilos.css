@@ -22,12 +22,13 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
   }
 a:link, a:visited { 
     text-decoration: none;
   }
   a:hover{
-    color: #a4f479;
+    color: rgb(0, 59, 74);
   }
   body{
     background-color: rgb(247, 247, 247);
@@ -47,8 +48,6 @@ a:link, a:visited {
     border-left: 3px solid rgb(0, 59, 74);
     height: 20px;
   }
-  
-  /* Estilos para la lista */
   header nav ul {
     display: flex;
     align-items: center;
@@ -57,7 +56,6 @@ a:link, a:visited {
   .navigationMenu{
     gap: 20px;
   }
-  
   .navigationMenu li a {
     color: rgb(0, 59, 74);
     font-weight: 700;
@@ -78,13 +76,94 @@ a:link, a:visited {
     margin-left: 2%;
     margin-right: 2%;
   }
+  main a:link, main a:visited{
+    color: rgb(191, 12, 240);
+    border-bottom: 1px dotted rgb(191, 12, 240)
+  }
+  main a:hover{
+    border-bottom: 1px dotted rgb(0, 59, 74);
+  }
+  .porQueVital360{
+    margin: 45px 5% 45px 5%;
+  }
+  .articleTitle{
+    font-family: "Noto Serif", sans-serif;
+    font-size: 35px;
+    margin-bottom: 45px;
+  }
+  .porQueVital360 p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .indexFormulario{
+    display: flex;
+    flex-direction: column;
+  }
+  .indexFormulario input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 7px 5px 7px 5px;
+    border-color: rgb(229, 225, 254);
+    border-width: 1px;
+    border-radius: 5px;
+  }
+  fieldset{
+    border: none;
+  }
+  legend{
+    opacity: 0;
+  }
+  .proteccionDatos{
+    font-size: 12px;
+  }
+  .politicaPrivacidad{
+    margin-left: 2%;
+    font-size: 12px;
+  }
+  .index__articles{
+    background-color: rgb(229, 225, 254);
+    padding-bottom: 50px;
+  }
+  .index__article{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .index__article--img{
+    width: 100%;
+  }
+  .index__article h2{
+    font-family: "Noto Serif", sans-serif;
+    font-size: 22px;
+  }
+  .index__article--photoCredit{
+    text-align: end;
+    font-size: 15px;
+  }
+  .index__article--description{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .subscribe{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(0, 59, 74);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+  }
   .meInteresa {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #3498db;
-    color: #fff;
-    text-decoration: none;
+    background-color: rgb(0, 59, 74);
     border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.meInteresa:link, .meInteresa:visited{
+  color: rgb(255, 255, 255);
 }
   footer{
     background-color: rgb(0, 59, 74);
@@ -102,7 +181,7 @@ a:link, a:visited {
     color: rgb(229, 225, 254);
   }
   .footer__socialMediaLogo:hover{
-    opacity: 70%;
+    opacity: 0.7;
   }
   footer ul li{
     margin-top: 13px;
