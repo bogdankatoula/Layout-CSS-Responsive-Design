@@ -182,6 +182,29 @@ a:link, a:visited {
     margin-top: 13px;
     margin-bottom: 13px;
   }
+  .main__videos{
+    background-color: none;
+  }
+  .main__title{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Noto Serif", sans-serif;
+    font-size: 38px;
+  }
+  .videos__article{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .videos__video{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .videos__video iframe {
+    width: 100%;
+    height: auto;
+  }
 }
   @media (min-width: 820px) {
     .indexFormulario{
