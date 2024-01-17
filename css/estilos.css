@@ -28,9 +28,6 @@
 a:link, a:visited { 
     text-decoration: none;
   }
-  a:hover{
-    color: rgb(0, 59, 74);
-  }
   body{
     background-color: rgb(247, 247, 247);
     font-family: Lato, sans-serif;
@@ -80,9 +77,6 @@ a:link, a:visited {
   main a:link, main a:visited{
     color: rgb(191, 12, 240);
     border-bottom: 1px dotted rgb(191, 12, 240)
-  }
-  main a:hover{
-    border-bottom: 1px dotted rgb(0, 59, 74);
   }
   .porQueVital360{
     margin: 45px 5% 45px 5%;
@@ -184,12 +178,6 @@ a:link, a:visited {
   footer a{
     color: rgb(255, 255, 255);
   }
-  footer a:hover{
-    color: rgb(229, 225, 254);
-  }
-  .footer__socialMediaLogo:hover{
-    opacity: 0.7;
-  }
   footer ul li{
     margin-top: 13px;
     margin-bottom: 13px;
@@ -219,5 +207,112 @@ a:link, a:visited {
     }
     .index__article--img{
       width: 200px;
+    }
+  }
+  @media (min-width: 1000px){
+    a:hover{
+      color: rgb(0, 59, 74);
+    }
+    main a:hover{
+      color: rgb(0, 59, 74);
+      border-bottom: 1px dotted rgb(0, 59, 74);
+    }
+    .navigationMenu li a:hover{
+      color: rgb(191, 12, 240);
+    }
+    .hero__image--home{
+      background-size: cover;
+      background-position: center;
+      padding-top: 200px;
+      padding-bottom: 200px;
+    }
+    #vital360Slogan{
+      margin-left: 22%;
+      margin-right: 45%;
+    }
+    .porQueVital360{
+      margin: 20px 22% 20px 22%;
+    }
+    .porQueVital360 p{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .porQueVital360__pc{
+      font-size: 13px;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .porQueVital360__pc > div {
+      width: 50%;
+  }
+    .indexFormulario{
+      margin-right: 0;
+    }
+    .proteccionDatos{
+      font-size: 10px;
+      margin-right: 0;
+    }
+    .politicaPrivacidad{
+      font-size: 10px;
+    }
+    .indexFormulario input{
+      margin-top: 5px;
+      margin-bottom: 5px;
+      padding: 5px 5px 5px 5px;
+    }
+    .subscribe{
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      font-size: 10px;
+    }
+    .subscribe:hover{
+      background-color: rgb(191, 12, 240);
+    }
+    .index__articles{
+      padding-left: 22%;
+      padding-right: 22%;
+    }
+    .index__article--photoCredit{
+      font-size: 10px;
+    }
+    .meInteresa:hover{
+      background-color: rgb(191, 12, 240);
+    }
+    footer a:hover{
+      color: rgb(229, 225, 254);
+    }
+    .footer__socialMediaLogo:hover{
+      opacity: 0.7;
+    }
+    footer{
+      height: 15vh;
+      font-size: 10px;
+    }
+    footer ul{
+      display: flex;
+      justify-content: space-between;
+      text-align: end;
+      width: 100%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    footer ul li{
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .textosLegales{
+      display: flex;
+      gap: 10px;
+    }
+    .logoVital360{
+      width: 90px;
+    }
+    .logoAndCredits{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
     }
   }
